@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 const Navbar = () => {
     const [click, setClick] = useState(false)
   return (
-    <div>
+    <div className='Navbar'>
         <header>
         <nav className='flexSB'>
           <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
@@ -33,7 +33,7 @@ const Navbar = () => {
             </li>
           </ul>
           <div className='start'>
-            <div className='nav-heading'>MAKTAB-E-IMAM-E-ASR</div>
+            <div className='nav-heading'>GET CERTIFICATE</div>
           </div>
           <button className='toggle' onClick={() => setClick(!click)}>
             {click ? <i className='fa fa-times'> </i> : <i className='fa fa-bars'></i>}
