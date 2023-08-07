@@ -1,0 +1,115 @@
+.aboutHome {
+    height: auto;
+    width: 85%;
+    margin: auto;
+  }
+  .aboutHome #heading {
+    text-align: left;
+    padding: 0;
+  }
+  .container{
+    display: flex;
+    gap: 20px;
+  }
+  #heading h3{
+    color: #1eb2a6;
+  }
+  #heading h1{
+    font-size: 3rem;
+    margin-top: 5%;
+  }
+  .aboutHome .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .aboutHome .right {
+    padding: 80px 0px;
+  }
+  
+  .item{
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .text h2{
+    color: black;
+  }
+  .aboutHome .item {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 20px;
+    transition: 0.5s;
+  }
+  .aboutHome .img {
+    width: 200px;
+  }
+  .aboutHome img {
+    width: 70px;
+    height: 70px;
+  }
+  .aboutHome .item h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .aboutHome .item p {
+    color: #999999;
+  }
+  .aboutHome .item:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+    transition: 1s;
+  }
+  .aboutHome .item:hover p{
+    color: #fff;
+  }
+  .aboutHome .item:hover h2{
+    color: #fff;
+  }
+  /*----------awrapper------------*/
+  /* .awrapper {
+    background-image: url("../../../public/images/awrapper.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30vh;
+    color: #fff;
+  }
+  .awrapper .box {
+    padding: 70px 0;
+  }
+  .awrapper img {
+    margin-right: 30px;
+  }
+  .awrapper h1 {
+    font-size: 50px;
+  }
+  .awrapper h3 {
+    font-size: 20px;
+    font-weight: 500;
+  } */
+  /*----------awrapper------------*/
+  @media screen and (max-width: 768px) {
+    .aboutHome .container {
+      flex-direction: column-reverse;
+    }
+    .aboutHome .row {
+      width: 100%;
+    }
+    .awrapper {
+      height: 50vh;
+    }
+  }
+
+  @media screen and (max-width: 667px) {
+    .item{
+        display: flex;
+        gap: 15px;
+        padding: 10px;
+      }
+      #heading h1{
+        font-size: 2rem;
+        margin-top: 5%;
+      }
+  }

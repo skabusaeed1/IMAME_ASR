@@ -10,7 +10,7 @@ const Head = () => {
           <div className='logo-div'>
             <div className='logo-div-1'>
                 <div className='logo-img-div'><img src={image} alt="" className='logo-img'/></div>
-                <div>IMAM-E-ASR(ATFS)</div>
+                <div>IMAM-E-ASR OFFICIAL</div>
             </div>
           </div>
 

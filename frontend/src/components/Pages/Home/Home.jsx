@@ -3,6 +3,8 @@ import Head from '../../Head/Head'
 import Navbar from '../../Navbar/Navbar'
 import Front from '../../Front/Front'
 import Learn from '../../Learn/Learn'
+import Popular from '../../Popular/Popular'
+import Allcourses from '../../Allcourses/Allcourses'
 import './Home.css'
 
 const Home = () => {
@@ -16,6 +18,8 @@ const Home = () => {
       </div>
       </div>
       <Learn/>
+      <Popular/>
+      <Allcourses/>
     </div>
   )
 }
