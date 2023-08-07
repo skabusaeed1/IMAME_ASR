@@ -19,7 +19,7 @@ const Allcourses = () => {
                   <img src={val.hoverCover} alt='' className='show' />
                 </div>
                 <h1>{val.courseName}</h1>
-                <span>{val.course}</span>
+                {/* <span>{val.course}</span> */}
               </div>
             ))}
           </div>

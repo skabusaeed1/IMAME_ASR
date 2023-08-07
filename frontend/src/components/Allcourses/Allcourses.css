@@ -14,6 +14,9 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
   }
+  #heading3{
+    margin-top: 13%;
+  }
   #heading3 h3{
     color: #1eb2a6;
     margin-top: 8%;
@@ -96,5 +99,11 @@
         line-height: 100%;
         margin-top: 3%;
         margin-bottom: 8%;
+      }
+      #heading3{
+        margin-top: 80px;
+      }
+      #heading3 h1{
+        font-size: 2rem;
       }
   }

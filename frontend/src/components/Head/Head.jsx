@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Head.css"
-import image from '../../images/logo1.png'
+import image from '../../images/logo3.png'
 
 const Head = () => {
   return (
@@ -10,7 +10,7 @@ const Head = () => {
           <div className='logo-div'>
             <div className='logo-div-1'>
                 <div className='logo-img-div'><img src={image} alt="" className='logo-img'/></div>
-                <div>IMAM-E-ASR OFFICIAL</div>
+                <div>MAKTAB-E-IMAM-E-ASR (ATFS)</div>
             </div>
           </div>
 

@@ -5,6 +5,7 @@ import Front from '../../Front/Front'
 import Learn from '../../Learn/Learn'
 import Popular from '../../Popular/Popular'
 import Allcourses from '../../Allcourses/Allcourses'
+import Students from '../../Students/Students'
 import './Home.css'
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
       <Learn/>
       <Popular/>
       <Allcourses/>
+      <Students/>
     </div>
   )
 }
