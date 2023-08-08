@@ -6,6 +6,7 @@ import Learn from '../../Learn/Learn'
 import Popular from '../../Popular/Popular'
 import Allcourses from '../../Allcourses/Allcourses'
 import Students from '../../Students/Students'
+import Certificate from '../../Certificate/Certificate'
 import './Home.css'
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
       <Popular/>
       <Allcourses/>
       <Students/>
+      <Certificate/>
     </div>
   )
 }

@@ -1,21 +1,52 @@
+import t4 from './images/testo/t4.png'
+import c11 from "./images/courses/c11.png"
+import c22 from "./images/courses/c22.png"
+import c33 from "./images/courses/c33.png"
+import on1 from "./images/courses/online/on1.png"
+import on11 from "./images/courses/online/on1.1.png"
+import on2 from "./images/courses/online/on2.png"
+import on22 from "./images/courses/online/on2.2.png"
+import on3 from "./images/courses/online/on3.png"
+import on33 from "./images/courses/online/on3.3.png"
+import on4 from "./images/courses/online/on4.png"
+import on44 from "./images/courses/online/on4.4.png"
+import on5 from "./images/courses/online/on5.png"
+import on55 from "./images/courses/online/on5.5.png"
+import on6 from "./images/courses/online/on6.png"
+import on66 from "./images/courses/online/on6.6.png"
+import on7 from "./images/courses/online/on7.png"
+import on77 from "./images/courses/online/on7.7.png"
+import on8 from "./images/courses/online/on8.png"
+import on88 from "./images/courses/online/on8.8.png"
+import on9 from "./images/courses/online/on9.png"
+import on99 from "./images/courses/online/on9.9.png"
+import on10 from "./images/courses/online/on10.png"
+import on100 from "./images/courses/online/on10.10.png"
+import on111 from "./images/courses/online/on11.png"
+import on1111 from "./images/courses/online/on11.11.png"
+import on12 from "./images/courses/online/on12.png"
+import on122 from "./images/courses/online/on12.12.png"
+import back1 from './images/back1.png'
+import back2 from './images/back2.png'
+
 export const homeAbout = [
   {
     id: 1,
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
     title: "Online Courses",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    desc: "Embark on a digital pilgrimage of learning with online Islamic courses. Explore the rich tapestry of Islamic teachings, culture, and history from the comfort of your home. Gain insights from knowledgeable instructors and expand your understanding of Islam. Enrich your faith through accessible and engaging online Islamic courses.",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
     title: "Earn A Certificates",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    desc: "Deepen your knowledge of Islam with online courses that lead to valuable certificates. Immerse yourself in comprehensive studies of faith, culture, and history. Upon completion, earn certificates that reflect your dedication to understanding Islam. Open doors to new perspectives and opportunities through accredited Islamic courses.",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/athlete.png",
     title: "Learn with Expert",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    desc: "Embark on a spiritual journey with online Islamic courses. Delve into the teachings of Islam, guided by renowned scholars and experts. Expand your understanding of faith, history, and culture from the comfort of your home. Deepen your connection with your beliefs by engaging in enriching online Islamic education.",
   },
 ]
 export const awrapper = [
@@ -44,11 +75,11 @@ export const awrapper = [
 export const coursesCard = [
   {
     id: 1,
-    cover: "../images/courses/c1.png",
+    cover: c11,
     coursesName: "Learning Quran With Tajveed And Maqraj",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
+        dcover: back2,
         name: "Maulana Syed Raza Abbas Abedi",
         totalTime: "50 lectures (190 hrs)",
       },
@@ -58,11 +89,11 @@ export const coursesCard = [
   },
   {
     id: 2,
-    cover: "../images/courses/c2.png",
+    cover: c22,
     coursesName: "Deeniyat And Basic Learning Quran",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
+        dcover: back1,
         name: "Alema Syeda Zakera Rizvi",
         totalTime: "30 lectures (125 hrs)",
       },
@@ -72,11 +103,11 @@ export const coursesCard = [
   },
   {
     id: 3,
-    cover: "../images/courses/c3.png",
+    cover: c33,
     coursesName: "Spoken Persian And Arabic",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
+        dcover: back2,
         name: "Maulana Syed Raza Abbas Abedi",
         totalTime: "50 lectures (50 hrs)",
       },
@@ -171,74 +202,74 @@ export const coursesCard = [
 ]
 export const online = [
   {
-    cover: "./images/courses/online/o1.png",
-    hoverCover: "./images/courses/online/o1.1.png",
+    cover: on1,
+    hoverCover: on11,
     courseName: "DARJA-E-AFTAAL",
     course: "25 Courses",
   },
   {
-    cover: "./images/courses/online/o2.png",
-    hoverCover: "./images/courses/online/o2.1.png",
+    cover: on2,
+    hoverCover: on22,
     courseName: "DARJA-E-AWWAL",
     course: "25 Courses",
   },
   {
-    cover: "./images/courses/online/o3.png",
-    hoverCover: "./images/courses/online/o3.1.png",
+    cover: on3,
+    hoverCover: on33,
     courseName: "DARJA-E-DUWAM",
     course: "10 Courses",
   },
   {
-    cover: "./images/courses/online/o4.png",
-    hoverCover: "./images/courses/online/o4.1.png",
+    cover: on4,
+    hoverCover: on44,
     courseName: "DARJA-E-CHAHAR RUM",
     course: "15 Courses",
   },
   {
-    cover: "./images/courses/online/o5.png",
-    hoverCover: "./images/courses/online/o5.1.png",
+    cover: on5,
+    hoverCover: on55,
     courseName: "DARJA-E-PANJUM",
     course: "30 Courses",
   },
   {
-    cover: "./images/courses/online/o6.png",
-    hoverCover: "./images/courses/online/o6.1.png",
+    cover: on6,
+    hoverCover: on66,
     courseName: "FOUR YEAR HOUZA",
     course: "60 Courses",
   },
   {
-    cover: "./images/courses/online/o7.png",
-    hoverCover: "./images/courses/online/o7.1.png",
+    cover: on7,
+    hoverCover: on77,
     courseName: "PERSIAN SPOKEN",
     course: "10 Courses",
   },
   {
-    cover: "./images/courses/online/o8.png",
-    hoverCover: "./images/courses/online/o8.1.png",
+    cover: on8,
+    hoverCover: on88,
     courseName: "ARABIC SPOKEN",
     course: "30 Courses",
   },
   {
-    cover: "./images/courses/online/o9.png",
-    hoverCover: "./images/courses/online/o9.1.png",
+    cover: on9,
+    hoverCover: on99,
     courseName: "QURAN TAJWEED AFSEEL",
     course: "80 Courses",
   },
   {
-    cover: "./images/courses/online/o10.png",
-    hoverCover: "./images/courses/online/o10.1.png",
+    cover: on10,
+    hoverCover: on100,
     courseName: "AQAID-E-AHLE-TASHI",
     course: "120 Courses",
   },
   {
-    cover: "./images/courses/online/o11.png",
-    hoverCover: "./images/courses/online/o11.1.png",
+    cover: on111,
+    hoverCover: on1111,
     courseName: "NAHJUL BALAGHA",
     course: "17 Courses",
   },
   {
-    cover: "./images/courses/online/o12.png",
-    hoverCover: "./images/courses/online/o12.1.png",
+    cover: on12,
+    hoverCover: on122,
     courseName: "STORY OF ISLAM",
     course: "17 Courses",
   },
@@ -392,23 +423,23 @@ export const blog = [
 export const testimonal = [
   {
     id: 1,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t1.webp",
+    name: "SYED INAYA ZEHRA SAFAVI",
+    post: "STUDENT",
+    desc: "These Islamic courses have deepened my understanding. Engaging content, knowledgeable instructors, and convenient online format. A rewarding way to learn.",
+    cover: t4,
   },
   {
     id: 2,
     name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    post: "STUDENT",
+    desc: "Exploring these Islamic courses was a remarkable experience. The quality of content and ease of access made my learning journey seamless. Grateful for the insights gained.",
     cover: "./images/testo/t2.webp",
   },
   {
     id: 3,
     name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    post: "STUDENT",
+    desc: "Engaging with these Islamic courses has been transformative. The knowledge I've gained, coupled with the convenience of online learning, has been a game-changer. Highly recommended.",
     cover: "./images/testo/t3.webp",
   },
 ]
