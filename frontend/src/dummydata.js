@@ -28,6 +28,15 @@ import on12 from "./images/courses/online/on12.png"
 import on122 from "./images/courses/online/on12.12.png"
 import back1 from './images/back1.png'
 import back2 from './images/back2.png'
+import khomani1 from './images/khomani1.png'
+import khomani2 from './images/khomani2.png'
+import mehdi from './images/mehdi.png'
+import sistani from './images/sistani.png'
+import mamu from './images/mamu.png'
+import zakera from './images/zakera.png'
+import maulana from './images/maulana.png'
+import Fazeelat from './images/Fazeelat.png'
+import abbas from './images/abbas.png'
 
 export const homeAbout = [
   {
@@ -276,45 +285,67 @@ export const online = [
 ]
 export const team = [
   {
-    cover: "./images/team/t1.webp",
-    name: "Ph.D Adrian Molises",
-    work: "12th Imam",
+    cover: mamu,
+    name: "Al Haj Mehdi Hasan Karbalai",
+    work: "Founder & CEO",
   },
   {
-    cover: "./images/team/t2.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: zakera,
+    name: "Alema Syeda Zakera Rizvi",
+    work: "Institutional head & Instructor",
   },
   {
-    cover: "./images/team/t3.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: maulana,
+    name: "Maulana Syed Raza Abbas Abedi",
+    work: "Senior Instructor",
+  },
+  {
+    cover: Fazeelat,
+    name: "Syeda Fazeelat Jabin Safawi",
+    work: "Senior Instructor",
   },
   {
     cover: "./images/team/t4.webp",
-    name: "Ph.D Brian Wooden",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    name: "Zakar Syeda Saniya Alvi",
+    work: "Instructor",
   },
   {
     cover: "./images/team/t5.webp",
-    name: "Ph.D Adrian Molises",
+    name: "Syed Agha Hussain Alvi",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
-    cover: "./images/team/t6.webp",
-    name: "Ph.D Arthur MaGregor",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
-  },
-  {
-    cover: "./images/team/t7.webp",
-    name: "Ph.D Anna Hanzen",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: abbas,
+    name: "Syed Abbas Alvi",
+    work: "Operational Head",
   },
   {
     cover: "./images/team/t8.webp",
     name: "Ph.D Brian Wooden",
     work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
+]
+export const inspiration = [
+  {
+    cover: mehdi,
+    name: "Imam Muhammad al-Mahdi (A.S) ",
+    work: "12th Imam",
+  },
+  {
+    cover: khomani1,
+    name: "The Grand Ayatollah Sayyid Ruhollah Khomeini",
+    work: "1st Supreme Leader of Iran",
+  },
+  {
+    cover: khomani2,
+    name: "The Ayatollah Sayyid Ali Khamenei",
+    work: "2nd Supreme Leader of Iran",
+  },
+  {
+    cover: sistani,
+    name: "Ayatollah Sayyid Sayyid Ali al-Sistani",
+    work: "Religious Scholar",
+  }
 ]
 export const price = [
   {

@@ -116,3 +116,14 @@ header {
       background-color: #1eb2a6;
     }
   }
+
+  
+  @media screen and (max-width: 667px) {
+    .mobile-nav {
+      position: absolute;
+      top: 8vh;
+      left: 0;
+      width: 100%;
+      background-color: #1eb2a6;
+    }
+  }

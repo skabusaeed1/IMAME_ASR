@@ -4,6 +4,19 @@
 }
 @media screen and (max-width: 768px) {
     .view-1{
-        height: 41rem;
+        height: 48rem;
     }
 }
+
+@media screen and (max-width: 820px) {
+    .view-1{
+        height: 48rem;
+    }
+}
+
+
+/* @media screen and (max-width: 667px) {
+    .view-1{
+        height: 40rem;
+    }
+} */

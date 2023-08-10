@@ -4,6 +4,7 @@ import Head from '../../Head/Head'
 import Navbar from '../../Navbar/Navbar'
 import Heading from '../../Heading/Heading'
 import Inspiration from '../../Inspiration/Inspiration'
+import Instructor from '../../Instructor/Instructor'
 
 const Team = () => {
   return (
@@ -11,9 +12,10 @@ const Team = () => {
      <div className='view-1'>
         <Head/>
         <Navbar/>
-        <Heading line={"Discover a World of Islamic Knowledge"} page={"Teams Page"}/>
+        <Heading line={"Discover a World of Islamic Knowledge"} page={"Team Page"}/>
      </div>
         <Inspiration/>
+        <Instructor/>
     </div>
   )
 }

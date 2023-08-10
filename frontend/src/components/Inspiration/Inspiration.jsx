@@ -1,14 +1,14 @@
 import React from 'react'
 import './Inspiration.css'
-import { team } from "../../dummydata"
+import { inspiration } from "../../dummydata"
 
 const Inspiration = () => {
   return (
     <div className='Inspiration'>
         <h1>Our Inspiration</h1>
       <div className='insp-main'>
-      {team.map((val) => (
-        <div className='insp-div'>
+      {inspiration.map((val,index) => (
+        <div className='insp-div' key={index}>
           <div className='insp-img'>
             <img src={val.cover} alt='' />
           </div>

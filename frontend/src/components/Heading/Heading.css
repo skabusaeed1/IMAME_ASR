@@ -1,5 +1,13 @@
+.Heading-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
 .Heading-1{
-    width: 65%;
+    width: 80%;
+    /* border: 1px solid black; */
     margin: auto;
     text-align: center;
     margin-top: 10%;
@@ -13,8 +21,23 @@
     font-size: 2rem;
     padding-top: 5%;
 }
+.Heading-img{
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.Heading-img img{
+    width: 100%;
+} 
 
 @media screen and (max-width: 768px) {
+    .Heading-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
     .Heading-1 p{
         font-weight: 600;
         font-size: 2rem;
@@ -25,6 +48,14 @@
 }
 
 @media screen and (max-width: 820px) {
+    .Heading-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
     .Heading-1 p{
         font-weight: 600;
         font-size: 2rem;
@@ -42,5 +73,8 @@
     .Heading-1 h1{
         margin-top: 15%;
         font-size: 1.5rem;
+    }
+    .Heading-img{
+        width: 65%;
     }
 }
