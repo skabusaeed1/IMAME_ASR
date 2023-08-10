@@ -278,7 +278,7 @@ export const team = [
   {
     cover: "./images/team/t1.webp",
     name: "Ph.D Adrian Molises",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    work: "12th Imam",
   },
   {
     cover: "./images/team/t2.webp",

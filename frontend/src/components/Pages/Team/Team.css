@@ -1,0 +1,9 @@
+.view-1{
+    background-color: #c6c8c9;
+    height: 46em;
+}
+@media screen and (max-width: 768px) {
+    .view-1{
+        height: 41rem;
+    }
+}

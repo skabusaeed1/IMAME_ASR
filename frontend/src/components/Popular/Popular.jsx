@@ -5,7 +5,7 @@ import { coursesCard } from "../../dummydata"
 const Popular = () => {
   return (
     <div>
-       <section className='coursesCard'>
+       <section className='coursesCard' id='coursesCard'>
         <div id='heading1'>
           <h3>OUR COURSES</h3>
           <h1>Explore Our Popular Online Courses</h1>
