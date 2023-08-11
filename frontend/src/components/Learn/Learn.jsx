@@ -1,5 +1,6 @@
 import React from 'react'
 import './Learn.css'
+import image from '../../images/learn2.jpg'
 import { homeAbout } from '../../dummydata'
 
 const Learn = () => {
@@ -7,8 +8,8 @@ const Learn = () => {
     <div>
         <section className='aboutHome'>
         <div className='container flexSB'>
-          <div className='left row'>
-            <img src='./images/about.webp' alt='' />
+          <div className='left'>
+            <img src={image} alt='' />
           </div>
           <div className='right row'>
               <div id='heading'>

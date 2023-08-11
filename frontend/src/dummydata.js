@@ -39,6 +39,10 @@ import zakera from './images/zakera.png'
 import maulana from './images/maulana.png'
 import Fazeelat from './images/Fazeelat.png'
 import abbas from './images/abbas.png'
+import book1 from './images/courses/online/book1.png'
+import book2 from './images/courses/online/book2.png'
+import book3 from './images/courses/online/book3.png'
+import book4 from './images/courses/online/book4.png'
 
 export const homeAbout = [
   {
@@ -451,5 +455,42 @@ export const testimonal = [
     post: "STUDENT",
     desc: "Engaging with these Islamic courses has been transformative. The knowledge I've gained, coupled with the convenience of online learning, has been a game-changer. Highly recommended.",
     cover: "./images/testo/t3.webp",
+  },
+]
+export const books = [
+  {
+    name:"Quran-with-Big-Font",
+    link:"https://drive.google.com/file/d/14S1hOVQYJxAHaPH-gDamvrwnGxPjumor/view?usp=sharing",
+    image:book1
+  },
+  {
+    name:"Qudamus Quraan  Maktab-E-IMAM",
+    link:"adfdfaff",
+    image:on12
+  },
+  {
+    name:"Imamia-Deeniyat-Aftal",
+    link:"adfdfaff",
+    image:on111
+  },
+  {
+    name:"Imamia-Deeniyat-Awwal",
+    link:"adfdfaff",
+    image:book2
+  },
+  {
+    name:"Imamia-Deeniyat-Dowwam",
+    link:"adfdfaff",
+    image:book3
+  },
+   {
+    name:"Imamia-Deeniyat-Sewwam",
+    link:"adfdfaff",
+    image:book4
+  },
+  {
+    name:"Gulzar-E-Urdu",
+    link:"adfdfaff",
+    image:on111
   },
 ]
