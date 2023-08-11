@@ -2,6 +2,8 @@ import t4 from './images/testo/t4.png'
 import c11 from "./images/courses/c11.png"
 import c22 from "./images/courses/c22.png"
 import c33 from "./images/courses/c33.png"
+import on0 from "./images/courses/online/on0.png"
+import on00 from "./images/courses/online/on0.0.png"
 import on1 from "./images/courses/online/on1.png"
 import on11 from "./images/courses/online/on1.1.png"
 import on2 from "./images/courses/online/on2.png"
@@ -90,11 +92,8 @@ export const coursesCard = [
       {
         dcover: back2,
         name: "Maulana Syed Raza Abbas Abedi",
-        totalTime: "50 lectures (190 hrs)",
       },
     ],
-    priceAll: "₹500 All Course",
-    pricePer: "₹500 per month",
   },
   {
     id: 2,
@@ -104,11 +103,8 @@ export const coursesCard = [
       {
         dcover: back1,
         name: "Alema Syeda Zakera Rizvi",
-        totalTime: "30 lectures (125 hrs)",
       },
     ],
-    priceAll: "$200 All Course",
-    pricePer: "₹500 per month",
   },
   {
     id: 3,
@@ -118,114 +114,97 @@ export const coursesCard = [
       {
         dcover: back2,
         name: "Maulana Syed Raza Abbas Abedi",
-        totalTime: "50 lectures (50 hrs)",
       },
     ],
-    priceAll: "$50 All Course",
-    pricePer: "₹500 per month",
   },
   {
     id: 4,
-    cover: "../images/courses/c4.png",
-    coursesName: "Introducing to Programming with WordPress",
+    cover: on00,
+    coursesName: "DARJA-E-AFTAAL",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by Prabin Thapa Mager",
-        totalTime: "20 lectures (20 hrs)",
+        dcover: back1,
+        name: "Alema Syeda Zakera Rizvi",
       },
     ],
-    priceAll: "$30 All Course",
-    pricePer: "$3 per month",
   },
   {
     id: 5,
-    cover: "../images/courses/c5.png",
-    coursesName: "Introducing to Programming with ReactJS",
+    cover: on11,
+    coursesName: "DARJA-E-AWWAL",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by Sunil Bishowkaram",
-        totalTime: "100 lectures (150 hrs)",
+        dcover: back1,
+        name: "Alema Syeda Zakera Rizvi",
       },
     ],
-    priceAll: "$300 All Course",
-    pricePer: "$30 per month",
   },
   {
     id: 6,
-    cover: "../images/courses/c6.png",
-    coursesName: "Learn Frontend Programming Language",
+    cover: on22,
+    coursesName: "DARJA-E-DUWAM",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by Sunil Bishowkaram",
-        totalTime: "200 lectures (300 hrs)",
+        dcover: back1,
+        name: "Alema Syeda Zakera Rizvi",
       },
     ],
-    priceAll: "$500 All Course",
-    pricePer: "$80 per month",
   },
   {
     id: 7,
-    cover: "../images/courses/c7.png",
-    coursesName: "Introducing to with HTML / CSS",
+    cover: on33,
+    coursesName: "DARJA-E-SUWAM",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by Price",
-        totalTime: "20 lectures (50 hrs)",
+        dcover: back1,
+        name: "Alema Syeda Zakera Rizvi",
       },
     ],
-    priceAll: "$20 All Course",
-    pricePer: "$2 per month",
   },
   {
     id: 8,
-    cover: "../images/courses/c8.png",
-    coursesName: "Introducing to with JAVA",
+    cover: on44,
+    coursesName: "DARJA-E-CHAHAR RUM",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by Petter",
-        totalTime: "80 lectures (200 hrs)",
+        dcover: back1,
+        name: "Alema Syeda Zakera Rizvi",
       },
     ],
-    priceAll: "$200 All Course",
-    pricePer: "$40 per month",
   },
   {
     id: 9,
-    cover: "../images/courses/c9.png",
-    coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+    cover: on55,
+    coursesName: "DARJA-E-PANJUM",
     courTeacher: [
       {
-        dcover: "./images/back.webp",
-        name: "by Petter",
-        totalTime: "50 lectures (50 hrs)",
+        dcover: back1,
+        name: "Alema Syeda Zakera Rizvi",
       },
     ],
-    priceAll: "$20 All Course",
-    pricePer: "$3 per month",
   },
 ]
 export const online = [
   {
+    cover: on0,
+    hoverCover: on00,
+    courseName: "DARJA-E-AFTAAL",
+  },
+  {
     cover: on1,
     hoverCover: on11,
-    courseName: "DARJA-E-AFTAAL",
-    course: "25 Courses",
+    courseName: "DARJA-E-AWWAL",
   },
   {
     cover: on2,
     hoverCover: on22,
-    courseName: "DARJA-E-AWWAL",
+    courseName: "DARJA-E-DUWAM",
     course: "25 Courses",
   },
   {
     cover: on3,
     hoverCover: on33,
-    courseName: "DARJA-E-DUWAM",
+    courseName: "DARJA-E-SUWAM",
     course: "10 Courses",
   },
   {
@@ -252,12 +231,12 @@ export const online = [
     courseName: "PERSIAN SPOKEN",
     course: "10 Courses",
   },
-  {
-    cover: on8,
-    hoverCover: on88,
-    courseName: "ARABIC SPOKEN",
-    course: "30 Courses",
-  },
+  // {
+  //   cover: on8,
+  //   hoverCover: on88,
+  //   courseName: "ARABIC SPOKEN",
+  //   course: "30 Courses",
+  // },
   {
     cover: on9,
     hoverCover: on99,
