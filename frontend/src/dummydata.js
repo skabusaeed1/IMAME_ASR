@@ -1,4 +1,6 @@
 import t4 from './images/testo/t4.png'
+import t5 from './images/testo/t5.jpeg'
+import t6 from './images/testo/t6.jpeg'
 import c11 from "./images/courses/c11.png"
 import c22 from "./images/courses/c22.png"
 import c33 from "./images/courses/c33.png"
@@ -39,10 +41,18 @@ import zakera from './images/zakera.png'
 import maulana from './images/maulana.png'
 import Fazeelat from './images/Fazeelat.png'
 import abbas from './images/abbas.png'
+import saniya from './images/saniya.png'
+import Taufeeq from './images/Taufeeq.png'
 import book1 from './images/courses/online/book1.png'
 import book2 from './images/courses/online/book2.png'
 import book3 from './images/courses/online/book3.png'
 import book4 from './images/courses/online/book4.png'
+import icon_img1 from './images/New/icon_img1.webp'
+import icon_img2 from './images/New/icon_img2.webp'
+import icon_img3 from './images/New/icon_img3.jpg'
+import icon_img4 from './images/New/icon_img4.webp'
+import icon_img5 from './images/New/icon_img5.webp'
+import icon_img6 from './images/New/icon_img6.webp'
 
 export const homeAbout = [
   {
@@ -160,8 +170,8 @@ export const coursesCard = [
     coursesName: "DARJA-E-SUWAM",
     courTeacher: [
       {
-        dcover: back1,
-        name: "Alema Syeda Zakera Rizvi",
+        dcover: back2,
+        name: "Maulana Syed Raza Abbas Abedi",
       },
     ],
   },
@@ -171,8 +181,8 @@ export const coursesCard = [
     coursesName: "DARJA-E-CHAHAR RUM",
     courTeacher: [
       {
-        dcover: back1,
-        name: "Alema Syeda Zakera Rizvi",
+        dcover: back2,
+        name: "Maulana Syed Raza Abbas Abedi",
       },
     ],
   },
@@ -182,8 +192,8 @@ export const coursesCard = [
     coursesName: "DARJA-E-PANJUM",
     courTeacher: [
       {
-        dcover: back1,
-        name: "Alema Syeda Zakera Rizvi",
+        dcover: back2,
+        name: "Maulana Syed Raza Abbas Abedi",
       },
     ],
   },
@@ -273,61 +283,61 @@ export const team = [
     work: "Founder & CEO",
   },
   {
+    cover: maulana,
+    name: "Maulana Syed Raza Abbas Abedi",
+    work: "Principle",
+  },
+  {
     cover: zakera,
     name: "Alema Syeda Zakera Rizvi",
     work: "Institutional head & Instructor",
   },
   {
-    cover: maulana,
-    name: "Maulana Syed Raza Abbas Abedi",
-    work: "Senior Instructor",
-  },
-  {
     cover: Fazeelat,
     name: "Syeda Fazeelat Jabin Safawi",
-    work: "Senior Instructor",
+    work: "Co-ordinator",
   },
   {
-    cover: "./images/team/t4.webp",
-    name: "Zakar Syeda Saniya Alvi",
+    cover: saniya,
+    name: "Zakera Syeda Saniya Alvi",
     work: "Instructor",
-  },
-  {
-    cover: "./images/team/t5.webp",
-    name: "Syed Agha Hussain Alvi",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
   },
   {
     cover: abbas,
     name: "Syed Abbas Alvi",
-    work: "Operational Head",
+    work: "Technical Head",
   },
   {
-    cover: "./images/team/t8.webp",
-    name: "Ph.D Brian Wooden",
-    work: "DEVELOPER AND LEAD INSTRUCTOR",
+    cover: "./images/team/t5.webp",
+    name: "Syed Agha Hussain Alvi",
+    work: "Advicer",
+  },
+  {
+    cover: Taufeeq,
+    name: "Dr.Syed Taufeeq Musvi",
+    work: "Advicer",
   },
 ]
 export const inspiration = [
   {
     cover: mehdi,
-    name: "Imam Muhammad al-Mahdi (A.S) ",
+    name: "Ahlebait (A.S) ",
     work: "12th Imam",
   },
   {
     cover: khomani1,
     name: "The Grand Ayatollah Sayyid Ruhollah Khomeini",
-    work: "1st Supreme Leader of Iran",
+    work: "Wali-E-Faqi",
   },
   {
     cover: khomani2,
     name: "The Ayatollah Sayyid Ali Khamenei",
-    work: "2nd Supreme Leader of Iran",
+    work: "Wali-E-Faqi",
   },
   {
     cover: sistani,
     name: "Ayatollah Sayyid Sayyid Ali al-Sistani",
-    work: "Religious Scholar",
+    work: "Wali-E-Faqi",
   }
 ]
 export const price = [
@@ -437,34 +447,34 @@ export const blog = [
 export const testimonal = [
   {
     id: 1,
-    name: "SYED INAYA ZEHRA SAFAVI",
+    name: "SYEDA INAYA ZEHRA SAFAVI",
     post: "STUDENT",
     desc: "These Islamic courses have deepened my understanding. Engaging content, knowledgeable instructors, and convenient online format. A rewarding way to learn.",
     cover: t4,
   },
   {
     id: 2,
-    name: "ROGER SCOTT",
+    name: "SYEDA IMARA ZEHRA SAFAVI",
     post: "STUDENT",
     desc: "Exploring these Islamic courses was a remarkable experience. The quality of content and ease of access made my learning journey seamless. Grateful for the insights gained.",
-    cover: "./images/testo/t2.webp",
+    cover: t5,
   },
   {
     id: 3,
-    name: "ROGER SCOTT",
+    name: "ZAIGHAM ABBAS",
     post: "STUDENT",
     desc: "Engaging with these Islamic courses has been transformative. The knowledge I've gained, coupled with the convenience of online learning, has been a game-changer. Highly recommended.",
-    cover: "./images/testo/t3.webp",
+    cover: t6,
   },
 ]
 export const books = [
   {
-    name:"Quran-with-Big-Font",
+    name:"The Holy Quran",
     link:"https://drive.google.com/file/d/14S1hOVQYJxAHaPH-gDamvrwnGxPjumor/view?usp=sharing",
     image:book1
   },
   {
-    name:"Qudamus Quraan  Maktab-E-IMAM",
+    name:"Qudamus Quraan",
     link:"adfdfaff",
     image:on12
   },
@@ -494,3 +504,41 @@ export const books = [
     image:on111
   },
 ]
+export const about = [
+  {
+    id: 1,
+    image: icon_img1,
+    title: "Structured study plans",
+    desc: " with our structured plans we will keep you on track, motivated, focused and will achieve your study goals easily and perfectly.",
+  },
+  {
+    id: 2,
+    image: icon_img2,
+    title: "Interactive classes",
+    desc: "with all the video streaming, whiteboard, screen-sharing and Zoom, we ensure that our classes are as interactive as possible",
+  },
+  {
+    id: 3,
+    image: icon_img3,
+    title: "Hand picked teachers",
+    desc: "we select the best tutors from the best Islamic university Al-Azhar who are well trained to teach online with many years of experience",
+  },
+  {
+    id: 4,
+    image: icon_img4,
+    title: "Certificates & competitions",
+    desc: "we motivate our students through our certificates, prizes and competitions as we will help them achieve their goal. We also provide monthly feedbacks and reports.",
+  },
+  {
+    id: 5,
+    image: icon_img5,
+    title: "Affordable fees",
+    desc: "we offer competitive pricing plans to give more Muslims the opportunity to learn We provide cheaper group classes for those who can not afford 1 to 1classes",
+  },
+  {
+    id: 6,
+    image: icon_img6,
+    title: "24/7 flexible timing",
+    desc: "Make your own flexible schedule at your convenience anytime 24/7",
+  },
+];

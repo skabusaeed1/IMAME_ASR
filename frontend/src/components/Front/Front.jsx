@@ -9,11 +9,11 @@ const Front = () => {
     <div className='Front'>
       <div className='main'>
         <div className='text'>
-           <div><h3>WELCOME TO MAKTABE IMAM-E-ASR</h3></div>
+           <div><h3>WELCOME TO MAKTABE IMAM-E-ASR (ATFS)</h3></div>
            <div><h1>Best Online Islamic Education Expertise</h1></div>
            <div> <p>Welcome to Maktabe Imam-e-Asr, your top-tier online source for Islamic education. Just as unseen texts hold secrets, we reveal the wisdom of sacred knowledge.</p></div>
            <div className='text4'>
-              <Link className='btn-1' as={ScrollLink} to={"coursesCard"} spy={true} smooth={true}  duration={800}>VIEW COURSES   <i className='fa fa-long-arrow-alt-right'></i></Link>
+              <a className='btn-1' href='https://surveyheart.com/form/6281d6d8d1a48248fcdf5ae4' target='blank'>ADMISSION FORM  <i className='fa fa-long-arrow-alt-right'></i></a>
            </div>
         </div>
         <div className='front-img'>

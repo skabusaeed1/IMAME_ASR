@@ -1,7 +1,7 @@
 .books{
     width: 80%;
     margin: auto;
-    margin-top: 10%;
+    /* margin-top: 10%; */
 }
 .Quran-img{
     width: 40%;
@@ -15,6 +15,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    margin-bottom: 7%;
+}
+.books h1{
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 5%;
 }
 .books-1{
     /* border: 1px solid black; */

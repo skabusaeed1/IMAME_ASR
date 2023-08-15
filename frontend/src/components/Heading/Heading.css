@@ -4,6 +4,7 @@
     align-items: center;
     width: 80%;
     margin: auto;
+    margin-top: 2%;
 }
 .Heading-1{
     width: 80%;
@@ -22,7 +23,7 @@
     padding-top: 5%;
 }
 .Heading-img{
-    width: 50%;
+    width: 40%;
     /* border: 1px solid black; */
 }
 .Heading-img img{

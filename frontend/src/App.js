@@ -1,16 +1,10 @@
 import './App.css';
-import Home from './components/Pages/Home/Home';
-import Team from './components/Pages/Team/Team';
-import Courses from './components/Pages/Courses/Courses';
-import Books from './components/Pages/Books/Books';
+import Allauth from './Allauth/Allauth';
 
 function App() {
   return (
     <div className="App">
-      {/* <Home/> */}
-      {/* <Team/> */}
-      {/* <Courses/> */}
-      <Books/>
+      <Allauth/>
     </div>
   );
 }

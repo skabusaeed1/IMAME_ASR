@@ -3,6 +3,9 @@ import './Courses.css'
 import Head from '../../Head/Head'
 import Navbar from '../../Navbar/Navbar'
 import Heading from '../../Heading/Heading'
+import NewsLetter from '../../NewsLetter/NewsLetter'
+import Footer from '../../Footer/Footer'
+import image from '../../../images/cartoon1.png'
 import { coursesCard } from '../../../dummydata'
 
 const Courses = () => {
@@ -11,13 +14,13 @@ const Courses = () => {
        <div className='view-2'>
         <Head/>
         <Navbar/>
-        <Heading line={"Discover a World of Islamic Knowledge"} page={"Courses Page"}/>
+        <Heading line={"Discover a World of Islamic Knowledge"} page={"Courses Page"} image={image}/>
      </div>
      <div id='heading5'>
           <h3>OUR COURSES</h3>
           <h1>Explore Our Popular Online Courses</h1>
         </div>
-     <div className='coursesCard'>
+     <div className='coursesCard' style={{marginBottom:"5%"}}>
          <div className='grid2'>
           {
             coursesCard.map((val)=>{
@@ -65,6 +68,8 @@ const Courses = () => {
           }
          </div>
        </div>
+       <NewsLetter/>
+       <Footer/>
     </div>
   )
 }

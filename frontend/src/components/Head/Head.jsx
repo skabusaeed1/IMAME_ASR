@@ -18,7 +18,7 @@ const Head = () => {
             <i className='fab fa-facebook-f icon'></i>
             <i className='fab fa-instagram icon'></i>
             <i className='fab fa-twitter icon'></i>
-            <i className='fab fa-youtube icon'></i>
+            <a href='https://www.youtube.com/@IMAMEASR' target='blank'><i className='fab fa-youtube icon'></i></a>
           </div>
         </div>
       </section>
