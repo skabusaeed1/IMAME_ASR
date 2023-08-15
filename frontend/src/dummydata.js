@@ -74,29 +74,6 @@ export const homeAbout = [
     desc: "Embark on a spiritual journey with online Islamic courses. Delve into the teachings of Islam, guided by renowned scholars and experts. Expand your understanding of faith, history, and culture from the comfort of your home. Deepen your connection with your beliefs by engaging in enriching online Islamic education.",
   },
 ]
-export const awrapper = [
-  {
-    cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
-    data: "3,000",
-    title: "SUCCESS STORIES",
-  },
-
-  {
-    cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
-    data: "320",
-    title: "TRUSTED TUTORS",
-  },
-  {
-    cover: "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
-    data: "1,000",
-    title: "SCHEDULES",
-  },
-  {
-    cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
-    data: "587",
-    title: "COURSES",
-  },
-]
 export const coursesCard = [
   {
     id: 1,
@@ -362,88 +339,6 @@ export const price = [
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
 ]
-export const faq = [
-  {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-  },
-  {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-  },
-  {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-  },
-  {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-  },
-  {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-  },
-  {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-  },
-]
-export const blog = [
-  {
-    id: 1,
-    type: "admin",
-    date: "JAN. 18, 2021",
-    com: "3 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b1.webp",
-  },
-  {
-    id: 2,
-    type: "admin",
-    date: "API. 25, 2022",
-    com: "5 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b2.webp",
-  },
-  {
-    id: 3,
-    type: "user",
-    date: "MAY. 15, 2022",
-    com: "10 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b3.webp",
-  },
-  {
-    id: 4,
-    type: "admin",
-    date: "JAN. 02, 2022",
-    com: "3 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b4.webp",
-  },
-  {
-    id: 5,
-    type: "admin",
-    date: "DEC. 14, 2022",
-    com: "3 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b5.webp",
-  },
-  {
-    id: 6,
-    type: "user",
-    date: "JAN. 18, 2021",
-    com: "12 COMMENTS ",
-    title: "Build your Dream Software & Engineering Career",
-    desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-    cover: "../images/blog/b6.webp",
-  },
-]
 export const testimonal = [
   {
     id: 1,
@@ -470,7 +365,7 @@ export const testimonal = [
 export const books = [
   {
     name:"The Holy Quran",
-    link:"https://drive.google.com/file/d/14S1hOVQYJxAHaPH-gDamvrwnGxPjumor/view?usp=sharing",
+    link:"https://drive.google.com/file/d/1Wdo1v3Hy5EmYZlMbCGFaxS4GNE4I8srh/view",
     image:book1
   },
   {
@@ -480,28 +375,118 @@ export const books = [
   },
   {
     name:"Imamia-Deeniyat-Aftal",
-    link:"adfdfaff",
-    image:on111
+    link:"https://drive.google.com/file/d/1j2nzB8IkdLzHzd6hAzKqWUmTcL6Hc0ZS/view",
+    image:book4
   },
   {
     name:"Imamia-Deeniyat-Awwal",
-    link:"adfdfaff",
-    image:book2
+    link:"https://drive.google.com/file/d/1z4hddkASYuvAwL1vNh8Kqp6ZeIT4ExN9/view",
+    image:book4
   },
   {
     name:"Imamia-Deeniyat-Dowwam",
-    link:"adfdfaff",
-    image:book3
+    link:"https://drive.google.com/file/d/11BQGqUYO-2Rs8frjLjuGekvV3sRThoKV/view",
+    image:book4
   },
    {
     name:"Imamia-Deeniyat-Sewwam",
-    link:"adfdfaff",
+    link:"https://drive.google.com/file/d/1azJ4xsokDgrvUWdH5nGWWktZ1DRUZsiw/view",
+    image:book4
+  },
+  {
+    name:"Imamia-Deeniyat-Chaharrum",
+    link:"https://drive.google.com/file/d/1n8yZwlp5Bj9eV4pjo7cUfV_lpHjjUXSy/view",
+    image:book4
+  },
+  {
+    name:"Imamia-Deeniyat-Panjum",
+    link:"https://drive.google.com/file/d/1azJ4xsokDgrvUWdH5nGWWktZ1DRUZsiw/view",
     image:book4
   },
   {
     name:"Gulzar-E-Urdu",
     link:"adfdfaff",
     image:on111
+  },
+  {
+    name:"Nahejul Balagha",
+    link:"https://drive.google.com/file/d/1Ps7g1_v6HPmw-ZOvSS2EtbPvDcvojqDS/view",
+    image:book1
+  },
+  {
+    name:"Tafseer-e-Namoona -One",
+    link:"https://drive.google.com/file/d/1CsgnjF0larnHZwTvQ5SgyLtII3L0Godn/view",
+    image:book2
+  },
+  {
+    name:"Tafseer-e-Namoona -Two",
+    link:"https://drive.google.com/file/d/1NUb6nRwqn0Tm8CdU_xxqrBNKaboOC815/view",
+    image:book2
+  },
+  {
+    name:"Tafseer-e-Namoona -Three",
+    link:"https://drive.google.com/file/d/1-b3xNMj-R_1XcvXeaDpnPSMSPcfA9d6B/view",
+    image:book2
+  },
+  {
+    name:"Tafseer-e-Namoona -Four",
+    link:"https://drive.google.com/file/d/1A7Qu4mGV2Xme7mcTKPnbaxzkpHUVd2vk/view",
+    image:book2
+  },
+   {
+    name:"Tafseer-e-Namoona -Five",
+    link:"https://drive.google.com/file/d/1HV2oURpgodcM_87QkMaQ-Tu-p1Xc-Vh9/view",
+    image:book2
+  },
+  {
+    name:"Tafseer-e-Namoona -Six",
+    link:"https://drive.google.com/file/d/1Mdkln5ZmFtEx-iBDwZQQZ3g6wk6BVqNo/view",
+    image:book2
+  },
+  {
+    name:"Tafseer-e-Namoona -Seven",
+    link:"https://drive.google.com/file/d/1o1N66PY0W9gRra6z8LESdsf5Y6vAYPyn/view",
+    image:book2
+  },
+  {
+    name:"Tafseer-e-Namoona -Eight",
+    link:"https://drive.google.com/file/d/132s3DCRKP32dht2g_AMFSJ2mvjSPxDpy/view",
+    image:book2
+  },
+  {
+    name:"Tafseer-e-Namoona -Nine",
+    link:"https://drive.google.com/file/d/10wNqgd_MI4a9lGhEL9fFvkbe899rgs5V/view",
+    image:book2
+  },
+  {
+    name:"Tafseer-e-Namoona -Ten",
+    link:"https://drive.google.com/file/d/1kkwBtqwUr-LKHi36DocQY29o6rkD7O5m/view",
+    image:book2
+  },
+  {
+    name:"Tafseer-e-Namoona -Eleven",
+    link:"https://drive.google.com/file/d/1EOmm3BhR7_6VvQbgect64Qflr9ljl8wx/view",
+    image:book2
+  },
+  {
+    name:"Tafseer-e-Namoona -Twelve",
+    link:"https://drive.google.com/file/d/1h-_1O7lyLTNTyIrkcHSCbkhWmTSRz8oG/view",
+    image:book2
+  },
+  {
+    name:"Tafseer-e-Namoona -Thirteen",
+    link:"https://drive.google.com/file/d/1S_lsFw4TXex1yGxY73WcOdoSV_gaKuS2/view",
+    image:book2
+  },
+  {
+    name:"Tafseer-e-Namoona -Fourteen",
+    link:"https://drive.google.com/file/d/1aKw8-C-G2u-d2QWm3nqAT_oV0wZXFf0L/view",
+    image:book2
+  },
+  {
+    name:"Tafseer-e-Namoona -Fifteen",
+    link:"https://drive.google.com/file/d/1KH2rEPEGKfrOkVb1wfzRT8vXFAubzlgf/view",
+    image:book2
   },
 ]
 export const about = [
@@ -521,7 +506,7 @@ export const about = [
     id: 3,
     image: icon_img3,
     title: "Hand picked teachers",
-    desc: "we select the best tutors from the best Islamic university Al-Azhar who are well trained to teach online with many years of experience",
+    desc: "we select the best tutors who are well trained to teach online with many years of experience",
   },
   {
     id: 4,

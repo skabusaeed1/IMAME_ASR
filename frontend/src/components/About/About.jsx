@@ -8,14 +8,15 @@ const About = () => {
        <div className="new_about_main">
       <div className="about_main">
         <div className="about_main_2">
+        <h1 style={{textAlign:"center",padding:"7%",fontSize:"3rem"}}>About us</h1>
           <div>
             <h2>Who Are We?</h2>
             <p>
               {/* <span className="about_span"> */}
-              Hidayah Network {/* </span> */}
-              is one of the leading online Qur’an, Arabic, and Islamic studies
-              websites. We have a group of native Arabic male & female experts
-              from Egypt who have been teaching non-Arabs all over the world for
+              Maktabe Imam-e-Asr {/* </span> */}
+              is one of the leading online Qur’an, Arabic, Persian and Islamic studies
+              websites. We have a group of male & female experts
+              who have been teaching all over the world for
               many years. We offer 18 different courses that are designed by
               great experts along with structured study plans for each course to
               help our students learn effectively and achieve their goals.
@@ -26,11 +27,9 @@ const About = () => {
             <p>
               We found out that so many Muslims are suffering from finding a
               male or female teacher who is so professional in teaching either
-              Qur’an, Arabic, or Islamic studies. They are also able to
-              communicate with them or their kids in English fluently, however,
-              their native language Is Arabic. We wanted to offer Very
-              exceptional pricing for our courses starting with 3 American
-              dollars per hour, as we would like all Muslims to afford to pay to
+              Qur’an, Arabic, Persian or Islamic studies. They are also able to
+              communicate with them or their kids in English fluently, We wanted to offer Very
+              exceptional pricing for our courses as we would like all Muslims to afford to pay to
               learn the book of Allah, its language and message. We also have
               the best curriculum which is all based on structured study plans
               to help our students or their parents track their progress and
@@ -40,11 +39,8 @@ const About = () => {
           <div>
             <h2>Our Goal</h2>
             <p>
-              We aim to teach at least {/* <span className="about_span"> */}
-              10 million Muslims
-              {/* </span> */}
-              from around the world in only 5 years! And make sure they recite
-              Qur’an correctly and fluently, speak Arabic fluently, and also
+              We aim to teach at least 1 lakh Muslims from around the world in only 5 years! And make sure they recite
+              Qur’an correctly and fluently, speak Arabic fluently, speak Persian fluently, and also
               have a great Islamic background and help them spread the message
               of Islam all over the world.
             </p>
@@ -53,9 +49,9 @@ const About = () => {
         <div className="about_our_Mission">
          <div className='about_our_Mission2'> <h2>Our Mission</h2></div>
           <p>
-            Hidayah Network was launched to provide a phenomenal and
+            Maktabe Imam-e-Asr was launched to provide a phenomenal and
             multi-featured online platform with the ultimate goal to teach more
-            than 5 million Muslims all over the world to recite and memorize the
+            than 1 lakh Muslims all over the world to recite and memorize the
             Quran with Tajweed beautifully and perfectly like Prophet Muhammad
             SAWW with the direction of incredibly trained and competent Huffaz
             who will make this ambition possible by providing a very structured
