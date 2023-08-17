@@ -13,8 +13,8 @@ const Inspiration = () => {
             <img src={val.cover} alt='' />
           </div>
           <div className='insp-text'>
-            <h5>{val.name}</h5>
-            <p>{val.work}</p>
+            <h5>{val.name}</h5>  
+            <p style={{textAlign:"center"}}>{val.work}</p>
           </div>
         </div>
       ))}

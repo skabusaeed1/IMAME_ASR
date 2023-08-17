@@ -8,7 +8,7 @@ const About = () => {
        <div className="new_about_main">
       <div className="about_main">
         <div className="about_main_2">
-        <h1 style={{textAlign:"center",padding:"7%",fontSize:"3rem"}}>About us</h1>
+        <h1 style={{textAlign:"center",padding:"10%",fontSize:"2.5rem"}}>About us</h1>
           <div>
             <h2>Who Are We?</h2>
             <p>

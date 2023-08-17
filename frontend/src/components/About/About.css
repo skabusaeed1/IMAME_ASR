@@ -4,14 +4,11 @@
   .about_main {
     margin: auto;
     width: 80%;
-    /* border: 1px solid red; */
   }
-
   .about_main_2 div {
     margin-bottom: 20px;
   }
   .about_main_2 div > p {
-    /* text-align: left; */
     text-align: justify;
     font-size: 18px;
     color: #808080;
@@ -48,17 +45,7 @@
     line-height: 30px;
     text-align: center;
   }
-  /* .about_our_Mission2{
-    margin: auto;
-    border: 1px solid red;
-  } */
-  /* .about_span {
-    color: #1eb2a6;
-    font-weight: bolder;
-    text-align: left;
-  } */
   .about_arry2{
-    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,7 +59,6 @@
     margin-top: 70px;
   }
   .about_img_div {
-    /* border: 3px solid blue; */
     width: 50%;
     margin: auto;
     transition: 0.3s;
@@ -84,23 +70,15 @@
     width: 90%;
   }
   .about_arry_sub {
-    /* border: 2px solid green; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2%;
   }
   .about_arry_main_div {
-    /* border: 2px solid blue; */
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 3%;
     border-radius: 5px;
-    
-   
   }
-  /* .about_details_div{
-     border: 2px solid blue;
-     
-  } */
   .about_details_div h3 {
     font-size: 25px;
     margin-bottom: 10px;
@@ -120,10 +98,33 @@
   .about_arry_sub {
     margin-bottom: 50px;
   }
+
+  @media screen and (max-width: 768px) {
+    .about_arry_sub {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .new_about_main {
+     margin-bottom: 20%;
+    }
+  }
+
+  @media screen and (max-width: 820px) {
+    .about_arry_sub {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .new_about_main {
+     margin-bottom: 20%;
+    }
+  }
   
   @media screen and (max-width: 667px) {
     .about_arry_sub {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
     }
+    .new_about_main {
+      margin-bottom: 250px;
+     }
   }

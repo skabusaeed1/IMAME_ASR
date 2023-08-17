@@ -1,6 +1,5 @@
 .Inspiration{
     margin-top: 8%;
-    /* margin-bottom: 50%; */
 }
 .Inspiration h1{
     text-align: center;
@@ -41,6 +40,7 @@
 }
 .insp-text p{
   font-size: 15px;
+  text-align: center;
   color: grey;
   margin-top: 10px;
   transition: 0.5s;
@@ -63,7 +63,6 @@
         grid-template-columns: 1fr 1fr 1fr;
         width: 85%;
         margin: auto;
-        /* gap: 20px; */
     }
     .Inspiration h1{
         font-size: 2rem;
@@ -111,6 +110,7 @@
       }
       .insp-text p{
         font-size: 12px;
+        text-align: center;
       }
 }
 

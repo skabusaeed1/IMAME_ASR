@@ -110,7 +110,36 @@
   #heading1{
     margin-top: 100px;
   }
+  .left{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
   }
+  }
+
+  @media screen and (max-width: 820px) {
+    .grid2{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 30px;
+   }
+ .coursesCard .text h1{
+   font-size: 25px;
+   font-weight: 500;
+   line-height: 30px;
+   color: black;
+ }
+ #heading1{
+   margin-top: 100px;
+ }
+ .left{
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   align-items: center;
+ }
+ }
 
   @media screen and (max-width: 667px) {
     .grid2{
@@ -123,6 +152,12 @@
       }
       #heading1 h1{
         font-size: 2rem;
+      }
+      .left{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
       }
   }
   

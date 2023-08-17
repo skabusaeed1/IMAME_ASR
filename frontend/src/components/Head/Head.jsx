@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Head.css"
 import image from '../../images/logo3.png'
+import { Link } from "react-router-dom"
 
 const Head = () => {
   return (
@@ -9,7 +10,7 @@ const Head = () => {
         <div className='container'>
           <div className='logo-div'>
             <div className='logo-div-1'>
-                <div className='logo-img-div'><img src={image} alt="" className='logo-img'/></div>
+                <div className='logo-img-div'><Link to="/"><img src={image} alt="" className='logo-img'/></Link></div>
                 <div>MAKTAB-E-IMAM-E-ASR (ATFS)</div>
             </div>
           </div>

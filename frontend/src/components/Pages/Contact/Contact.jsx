@@ -6,16 +6,36 @@ import Heading from '../../Heading/Heading'
 import NewsLetter from '../../NewsLetter/NewsLetter'
 import Footer from '../../Footer/Footer'
 import image from '../../../images/cartoon4.png'
+import {useRef} from 'react'
+import emailjs from '@emailjs/browser';
+
 
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_emjegcc', 'template_3g6x1c9', form.current, 'ulU6wT_zz9FEsO37E')
+      .then((result) => {
+          console.log(result.text);
+          alert("Message sent successfully");
+      }, (error) => {
+          console.log(error.text);
+          alert("Something went wrong")
+      });
+  };
+
+
   return (
     <div>
-      <div className='view-1'>
+      <div className='view-5'>
         <Head/>
         <Navbar/>
         <Heading line={"Discover a World of Islamic Knowledge"} page={"Contact Page"} image={image}/>
      </div>
-     <div style={{textAlign:"center",padding:"5%",fontSize:"1.8rem"}}>
+     <div style={{textAlign:"center",padding:"5%",fontSize:"1.8rem"}} className='contact_h1'>
        <h1>Contact</h1>
      </div>
       <div className="new_contact_main">
@@ -55,27 +75,29 @@ const Contact = () => {
           </div>
         </div>
         <div className="Contact_input">
-          <div>
-            <input type="text" placeholder="Name" />
+         <form ref={form} onSubmit={sendEmail}>
+         <div>
+            <input type="text" placeholder="Name" name="user_name"/>
           </div>
           <div>
-            <input type="email" placeholder="Email" />
+            <input type="email" placeholder="Email" name="user_email"/>
           </div>
           <div>
-            <input type="text" placeholder="Subject" />
+            <input type="text" placeholder="Phone No" name="user_no"/>
           </div>
           <div>
             <textarea
               placeholder="Create a message here..."
-              name=""
+              name="message"
               id=""
               cols="30"
               rows="10"
             ></textarea>
           </div>
-        </div>
-        <div className="Contact_button">
-          <button>SEND MESSAGE</button>
+          <div className="Contact_button">
+            <input type='submit' value="Send"/>
+          </div>
+         </form>
         </div>
       </div>
       {/* form div end*/}

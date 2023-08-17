@@ -11,12 +11,12 @@ import { coursesCard } from '../../../dummydata'
 const Courses = () => {
   return (
     <div>
-       <div className='view-2'>
+       <div className='view-3'>
         <Head/>
         <Navbar/>
         <Heading line={"Discover a World of Islamic Knowledge"} page={"Courses Page"} image={image}/>
      </div>
-     <div id='heading5'>
+     <div id='heading6'>
           <h3>OUR COURSES</h3>
           <h1>Explore Our Popular Online Courses</h1>
         </div>

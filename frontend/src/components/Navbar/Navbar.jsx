@@ -1,7 +1,7 @@
 import React from 'react'
 import {useState} from 'react'
 import "./Navbar.css"
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 const Navbar = () => {
     const [click, setClick] = useState(false)
@@ -11,25 +11,25 @@ const Navbar = () => {
         <nav className='flexSB'>
           <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
             <li>
-              <Link to='/'>Home</Link>
+              <NavLink to='/'>Home</NavLink>
             </li>
             <li>
-              <Link to='/courses'>All Courses</Link>
+              <NavLink to='/courses'>Courses</NavLink>
             </li>
             <li>
-              <Link to='/about'>About</Link>
+              <NavLink to='/about'>About</NavLink>
             </li>
             <li>
-              <Link to='/team'>Team</Link>
+              <NavLink to='/team'>Team</NavLink>
             </li>
             {/* <li>
-              <Link to='/pricing'>Pricing</Link>
+              <NavLink to='/pricing'>Pricing</NavLink>
             </li> */}
             <li>
-              <Link to='/books'>Books</Link>
+              <NavLink to='/books'>Books</NavLink>
             </li>
             <li>
-              <Link to='/contact'>Contact</Link>
+              <NavLink to='/contact'>Contact</NavLink>
             </li>
           </ul>
           <div className='start'>

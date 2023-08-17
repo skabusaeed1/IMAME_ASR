@@ -1,0 +1,28 @@
+.view-1{
+    height: 48rem;
+    background-color: #c6c8c9;
+}
+@media screen and (max-width: 768px) {
+    .view-1{
+        height: 48rem;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .view-1{
+        height: 48rem;
+    }
+}
+
+
+@media screen and (max-width: 667px) {
+    .view-1{
+        height: 40rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .view-1{
+        height: 45rem;
+    }
+}

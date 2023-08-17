@@ -40,3 +40,18 @@
     transition: 0.6s;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 667px) {
+    .social{
+      display: none;
+    }
+    .logo-div-1{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+    }
+    .head{
+      padding: 0px 0;
+    }
+  }

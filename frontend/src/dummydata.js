@@ -43,6 +43,7 @@ import Fazeelat from './images/Fazeelat.png'
 import abbas from './images/abbas.png'
 import saniya from './images/saniya.png'
 import Taufeeq from './images/Taufeeq.png'
+import Babar from './images/babar.png'
 import book1 from './images/courses/online/book1.png'
 import book2 from './images/courses/online/book2.png'
 import book3 from './images/courses/online/book3.png'
@@ -267,7 +268,7 @@ export const team = [
   {
     cover: zakera,
     name: "Alema Syeda Zakera Rizvi",
-    work: "Institutional head & Instructor",
+    work: "H.O.D & Instructor",
   },
   {
     cover: Fazeelat,
@@ -276,7 +277,7 @@ export const team = [
   },
   {
     cover: saniya,
-    name: "Zakera Syeda Saniya Alvi",
+    name: "Alema Syeda Saniya Alvi",
     work: "Instructor",
   },
   {
@@ -285,21 +286,21 @@ export const team = [
     work: "Technical Head",
   },
   {
-    cover: "./images/team/t5.webp",
+    cover: Babar,
     name: "Syed Agha Hussain Alvi",
-    work: "Advicer",
+    work: "Advisor",
   },
   {
     cover: Taufeeq,
     name: "Dr.Syed Taufeeq Musvi",
-    work: "Advicer",
+    work: "Advisor",
   },
 ]
 export const inspiration = [
   {
     cover: mehdi,
     name: "Ahlebait (A.S) ",
-    work: "12th Imam",
+    work: "Twelve Imam",
   },
   {
     cover: khomani1,

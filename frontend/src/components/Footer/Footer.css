@@ -109,8 +109,10 @@
       gap: 1%;
       grid-template-columns: repeat(1, 1fr);
     }
-    .footer_explore h3,
-    p {
+    .footer_explore h3{
+      display: flex;
+    }
+    .footer_explore p{
       display: flex;
     }
   }

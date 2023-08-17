@@ -12,7 +12,7 @@ import image from '../../../images/cartoon3.png'
 const Books = () => {
   return (
     <div>
-    <div className='view-1'>
+    <div className='view-2'>
         <Head/>
         <Navbar/>
         <Heading line={"Discover a World of Islamic Knowledge"} page={"Books Page"} image={image}/>
