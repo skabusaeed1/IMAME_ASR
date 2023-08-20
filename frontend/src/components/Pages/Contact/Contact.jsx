@@ -66,7 +66,7 @@ const Contact = () => {
             <p>Roshan Gate, Aurangabad</p>
           </div>
           <div>
-            <h4>EMAIL:</h4> <p>imameasr110@gmail.com</p>
+            <h4>EMAIL:</h4> <p style={{paddingRight:"50px"}}>imameasr110@gmail.com</p>
           </div>
           <div className="contact_mobile">
             <h4>PHONE:</h4> <p>+91-8888437431</p>

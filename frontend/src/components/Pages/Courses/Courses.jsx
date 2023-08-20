@@ -56,7 +56,7 @@ const Courses = () => {
                         <i className='fa fa-star'></i>
                         <i className='fa fa-star'></i>
                         <i className='fa fa-star'></i>
-                        <label htmlFor=''>(5.0)</label>
+                        <label htmlFor=''>(5.0)</label>  
                       </div>
                    <div className='price'>
                     <h3>
